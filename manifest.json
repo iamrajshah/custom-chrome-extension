@@ -1,0 +1,23 @@
+{
+    "name": "Raj-Meet",
+    "description": "trying to dip dive in GCX",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_title": "Launch Just tab",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "img/R.png",
+            "32": "img/R.png"
+        }
+    },
+    "icons": {
+        "16": "img/R.png",
+        "32": "img/R.png",
+        "48": "img/R.png",
+        "128": "img/R.png"
+    }
+}

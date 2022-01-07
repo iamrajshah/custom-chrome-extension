@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    outline: none;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#urlInput {
+    height: 20px;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#openNewTab {
+    height: 30px;
+    width: 80%;
+    color: white;
+    background-color: #24a0ed;
+    margin-bottom: 15px;
+}
+
+#openNewTab:hover {
+    background-color: #1080c6;
+}
